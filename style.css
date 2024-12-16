@@ -3,9 +3,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  display: flex;
   gap: 50px;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -25,9 +23,13 @@ button {
   border-bottom: 1px solid #ccc;
   padding: 7px 20px;
   width: 300px;
-  position: absolute;
-  /* bottom: 0; 
-  right: 0; */
+}
+
+#my-canvas{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 
 .form-input {
