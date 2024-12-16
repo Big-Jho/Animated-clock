@@ -3,7 +3,11 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  height: 1000px;
+  display: flex;
+  gap: 50px;
+  flex-ddirection: column;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -22,8 +26,8 @@ button {
   padding: 7px 20px;
   width: 300px;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  /* bottom: 0; 
+  right: 0; */
 }
 
 .form-input {
